@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300;600&display=swap');
+
+.grid {
+    grid-template-rows:  auto auto auto 1fr 1fr auto; 
+    grid-template-columns: auto;
+}
+
+.topFade {
+    color: rgb(54, 54, 54);
+    grid-row: 3;
+    grid-column: 1 / 3;
+    padding: 2% 0;
+    background-image: linear-gradient( #9aacba 30%,rgb(54, 54, 54));
+}
+
+h2 {
+    font-size: 30pt;
+    font-weight: 600;
+}
+
+.ambitions p, .getThere p {
+    padding: 5% 10%;
+    line-height: 2em;
+    font-size: 15pt;
+    font-weight: 300;
+}
+
+.ambitions, .getThere, .goals {
+    font-family: "Akshar", sans-serif;
+}
+
+.ambitions {
+    padding-top: 5%;
+    grid-row: 4;
+    grid-column: 1 ;
+    background: linear-gradient(rgb(54, 54, 54) , rgba(54, 54, 54, 0.647)); 
+    color: antiquewhite; 
+    border-right: 2pt solid rgba(250, 235, 215, 0.393);
+}
+
+.goals {
+    padding-top: 5%;
+    grid-row: 4;
+    grid-column: 2 ;
+    background: linear-gradient(rgb(54, 54, 54) , rgba(54, 54, 54, 0.647)); 
+    color: antiquewhite; 
+}
+
+.goals ul {
+    list-style: url("../image/Target_White.png");
+    text-align: left;
+    padding-left: 35%;
+}
+
+.goals li {
+    font-size: 25pt;
+    padding: 4% 5%;
+}
+
+.getThere {
+    padding-top: 2%;
+    grid-row: 5;
+    grid-column: 1 / 3;
+    background: linear-gradient(rgb(54, 54, 54, 0.647) , rgba(54, 54, 54)); 
+    color: antiquewhite; 
+    border-top: 2pt solid rgba(250, 235, 215, 0.393);
+}
+
+@media screen and (max-width: 750px) {
+
+    .ambitions {
+        grid-row: 4;
+        grid-column: 1 / 3;
+        border-right: none;
+        border-bottom: 2pt solid rgba(250, 235, 215, 0.393);
+        line-height: 0.5em;
+    }
+
+    .goals {
+        grid-row: 5;
+        grid-column: 1 / 3;
+        background:  rgba(54, 54, 54, 0.647); 
+        border-bottom: 2pt solid rgba(250, 235, 215, 0.393);
+    }
+
+    .goals li {
+        font-size: 22pt;
+    }
+
+    .goals ul {
+        padding-top: 10%;
+        padding-left: 20%;
+    }
+
+    .getThere {
+        grid-row: 6;
+        grid-column: 1 / 3;
+        border-top: none;
+        padding-top: 5%;
+        line-height: 0.2em;
+    }
+    .getThere p{
+        padding-top: 7%;
+        line-height: 1.2em;
+    }
+}

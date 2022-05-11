@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@900&family=Nunito:wght@400;900&family=Raleway:wght@900&family=Roboto&family=Roboto+Mono&display=swap');
+
+.portfolio {
+    background-color:#9aacba;
+    grid-row: 3;
+    grid-column: 1 / 3; 
+    color: rgb(54, 54, 54);
+    font-family: "Nunito", sans-serif;
+    font-size: 10pt;
+    line-height: 22pt;
+    padding-top: 5%;
+}
+.portfolio .btn {
+    font-size: 40pt;
+    letter-spacing: 0.2em;
+    text-decoration: none;
+    background-size: cover;
+    padding: 10% 0;
+    color: black;
+    display: block;
+    width: 100%;
+    box-shadow: 0 0 5pt 5pt #9aacba inset;
+}
+
+.portfolio .numGame {
+    background-image: url(../image/Questionmark.jpg);
+    font-family: "Raleway", sans-serif;
+    color:antiquewhite;
+}
+
+.portfolio .eBank {
+    background-image: url(../image/Bank.jpg);
+    font-family: "Raleway", sans-serif;
+    color:antiquewhite;
+}
+.portfolio .snake {
+    background-image: url(../image/Snake.jpg);
+    font-family: "Raleway", sans-serif;
+    color:antiquewhite;
+}
+
+.portfolio .rest-api {
+    background-image: url(../image/Api.jpg);
+    font-family: "Raleway", sans-serif;
+    color:antiquewhite;
+}
+
+.portfolio ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding: 2% 2%;
+}
+
+.portfolio ul li {
+    flex-grow: 1;
+    margin-top: 2%;
+    
+}
+
+.portfolio .githubRepo {
+    display: flexbox;
+    flex-direction: row;
+    grid-column: 1 / 3;
+    width: 100%;
+}
+
+.portfolio .githubRepo .repo{
+    margin-top: 1%;
+    margin: 2pt 2pt;
+    display: inline-flex;
+    flex-grow: 1;
+    overflow: visible;
+}
+
+.portfolio .githubRepo .repo a h4{
+    font-size: 20pt;
+    color: antiquewhite;
+}
+
+.portfolio .githubRepo .repo a p{
+    font-size: 10pt;
+    color: antiquewhite;
+    font-family: "Nunito", sans-serif;
+}
+
+.portfolio .githubRepo .repo a{
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+    background-color: rgb(53,53,53);
+    box-shadow: 0 0 5pt 5pt #9aacba inset;
+    padding: 10pt 15pt;
+    margin: 5pt 15pt;
+}
+
+.modal {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(77, 77, 77, .7);
+    transition: all .4s;
+    z-index: 1;
+    flex-wrap: wrap;
+    
+}
+.modal:target {
+      visibility: visible;
+      opacity: 1;
+}
+.modal-content img {
+    max-width: 100%;
+}
+.modal-content {
+    border-radius: 4px;
+    position: relative;
+    color:antiquewhite;
+    width: 500px;
+    max-width: 90%;
+    background: rgb(54, 54, 54);
+    padding: 1em 2em;
+    }
+    
+.modal-content a img:hover{
+    background-color: antiquewhite;
+    border-radius: 80%;
+}
+
+.modal-content .modal-close a:hover {
+    color:rgba(0, 0, 0, 0.633);
+}
+.modal-close a {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #828282;
+    text-decoration: none;
+    font-size: 2em;
+    }
+
+    @media screen and (max-width: 600px) {
+        
+        .portfolio .btn {
+            font-size: 25pt;
+        }
+        
+    }

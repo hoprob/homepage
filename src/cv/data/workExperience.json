@@ -1,0 +1,30 @@
+[
+    {
+        "title" : "Elektro Emanuel",
+        "years" : "2014-2021",
+        "city" : "Varberg",
+        "role" : "Serviceelektriker",
+        "about" : "Under min tid som serviceelektriker arbetade jag i huvudsak självständigt inom industri, hos privatpersoner och hos företag med nära kundkontakt. Jag kom att inrikta mig på styrsystem inom industrin och smarta hem-lösningar som KNX. Denna anställning stärkte bland annat min kompetens att arbeta självständigt med handlingskraft, samt min analytiska och lösningsorienterade förmåga genom felsökning i styrsystem och programmering av KNX-anläggningar."
+    },
+    {
+        "title" : "Midroc",
+        "years" : "2015",
+        "city" : "Varberg",
+        "role" : "Industrielektriker",
+        "about" : "På Midroc var jag i ca 6 månader och var placerad på Värö-Bruk. Här fick jag arbeta med grövre industriarbeten och högspänning."
+    },
+    {
+        "title" : "Kungsäters El",
+        "years" : "2012-2014",
+        "city" : "Varberg/Göteborg",
+        "role" : "Installationselektriker",
+        "about" : "Under min tid på Kungsäters El fortsatte jag arbetet på entreprenad men började även att utföra vissa servicejobb vilket bland annat utvecklade min färdighet för felsökning."
+    },
+    {
+        "title" : "Elektro Emanuel",
+        "years" : "2010-2012",
+        "city" : "Varberg",
+        "role" : "Installationselektriker (Lärling)",
+        "about" : "Här gjorde jag min lärlingstid för att bli elektriker under gymnasiet. Jag arbetade mest inom entreprenader dvs. diverse byggprojekt."
+    }  
+]

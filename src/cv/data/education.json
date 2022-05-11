@@ -1,0 +1,23 @@
+[
+    {
+        "title" : "Systemutvecklare .NET",
+        "years" : "2021-2023 (Pågående)",
+        "school" : "Campus Varberg",
+        "graduation" : "Yrkeshögskola",
+        "about" : "Utbildningen ger mig en bred kompetens och kunskap inom både frontend och backend att utveckla och arbeta med program och applikationer, samt integrera dessa med servermiljöer, databaser och mobila system med inriktning mot .NET. "
+    },
+    {
+        "title" : "Programmering 1 och 2",
+        "years" : "2020-2021",
+        "school" : "NTI-Skolan (Distans)",
+        "graduation" : "Fristående Gymnasiekurser",
+        "about" : "Programmering 1 var grundläggande programmering i C# och ett krav för att komma in där jag läser idag. Programmering 2 var en fortsättningskurs som jag läste på eget initiativ då första kursen gjorde att jag ville lära mig mer! Programmering 2 gav mig ytterligare kunskapen inom C#, SQL, Nätverksprogramemring och Windows Forms. "
+    },
+    {
+        "title" : "Automations/Installations-elektriker",
+        "years" : "2008-2012 ",
+        "school" : "Pederskrivares Gymnasieskola, Varberg",
+        "graduation" : "Gymnasieutbidning",
+        "about" : "Gymnasieutbildning i elteknik med inriktning mot automation på 4 år"
+    }
+]
