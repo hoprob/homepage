@@ -3,17 +3,21 @@ import {React, useEffect, useState} from "react";
 
 export function GitHubRepo(){
     const [repo, setRepo] = useState([]);
-
-    useEffect(() => {
-        fetch("https://api.github.com/users/hoprob/repos")
+    const [loading, setLoading] = useState(true);
+    useEffect(async() => {
+        setLoading(true)
+        await fetch("https://api.github.com/users/hoprob/repos")
         .then(response => response.json())
-        .then(data => 
-            setRepo(data)
+        .then(data => {
+            setRepo(data);
+            setLoading(false);
+        }
         )
     }, [])
 
     return(
         <div>
+            {loading?'Laddar data...' : ''}
             {repo.map((r) => {
                 return (
                     <div className="repo">
