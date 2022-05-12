@@ -26,7 +26,7 @@ export function Portfolio (){
     return(
         <div className="grid">
             <Header/>
-            <Menu/> 
+            <Menu/>     
             <section className="portfolio">
                 <h2>Några av mina projekt:</h2>
                 <ul>

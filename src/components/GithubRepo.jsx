@@ -4,9 +4,9 @@ import {React, useEffect, useState} from "react";
 export function GitHubRepo(){
     const [repo, setRepo] = useState([]);
     const [loading, setLoading] = useState(true);
-    useEffect(async() => {
+    useEffect(() => {
         setLoading(true)
-        await fetch("https://api.github.com/users/hoprob/repos")
+        fetch("https://api.github.com/users/hoprob/repos")
         .then(response => response.json())
         .then(data => {
             setRepo(data);

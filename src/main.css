@@ -137,12 +137,12 @@ nav .current {
         grid-row: 1;
         position: sticky;
         top: 0;
-        padding: 25pt 10pt;
+        padding: 25pt 13pt;
         display: grid !important;
         border-radius: 50%;
         background-color: rgba(54, 54, 54, 0.582);
-        width: 45pt;
-        height: 45pt;
+        width: 50pt;
+        /*height: 10pt;*/
         z-index: 1000;
         margin-top: 110pt;
     }

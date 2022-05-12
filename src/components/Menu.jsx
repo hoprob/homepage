@@ -11,11 +11,11 @@ export function Menu(){
             <label className="hamb" for="side-menu"><span className="hamb-line"></span></label>
             <nav className="menu">
                 <ul>
-                    <li><NavLink className={({ isActive }) => isActive ? 'current' : ''} to="/homepage/home">Startsida</NavLink></li>
-                    <li><NavLink className={({ isActive }) => isActive ? 'current' : ''} to='/homepage/cv'>CV</NavLink></li>
-                    <li><NavLink className={({ isActive }) => isActive ? 'current' : ''} to="/homepage/portfolio">Portfolio</NavLink></li>
-                    <li><NavLink className={({ isActive }) => isActive ? 'current' : ''} to="/homepage/mal">Mål</NavLink></li>
-                    <li><NavLink className={({ isActive }) => isActive ? 'current' : ''} to="/homepage/funfacts">Fun facts</NavLink></li>
+                    <li><NavLink className={({ isActive }) => isActive ? 'current' : ''} to="/">Startsida</NavLink></li>
+                    <li><NavLink className={({ isActive }) => isActive ? 'current' : ''} to='/cv'>CV</NavLink></li>
+                    <li><NavLink className={({ isActive }) => isActive ? 'current' : ''} to="/portfolio">Portfolio</NavLink></li>
+                    <li><NavLink className={({ isActive }) => isActive ? 'current' : ''} to="/mal">Mål</NavLink></li>
+                    <li><NavLink className={({ isActive }) => isActive ? 'current' : ''} to="/funfacts">Fun facts</NavLink></li>
                 </ul>            
             </nav>  
         </>
