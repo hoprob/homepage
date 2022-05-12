@@ -20,8 +20,8 @@ export function GitHubRepo(){
             {loading?'Laddar data...' : ''}
             {repo.map((r) => {
                 return (
-                    <div className="repo">
-                        <a href={r.html_url} target="_blank"><h4>{r.name}</h4><p>{r.description?r.description:'Utan beskrivning'}</p></a>
+                    <div className="repo" key={r.id}>
+                        <a href={r.html_url} target="_blank"><span><h4>{r.name}</h4></span><p>{r.description?r.description:'Utan beskrivning'}</p></a>
                     </div>
                 )
             })}

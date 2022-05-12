@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@900&family=Nunito:wght@400;900&family=Raleway:wght@900&family=Roboto&family=Roboto+Mono&display=swap');
+*{
+    max-width: 100vw;
+}
 
 .portfolio {
     background-color:#9aacba;
@@ -70,7 +73,7 @@
     margin: 2pt 2pt;
     display: inline-flex;
     flex-grow: 1;
-    overflow: visible;
+    overflow: hidden;
 }
 
 .portfolio .githubRepo .repo a h4{
@@ -91,6 +94,7 @@
     box-shadow: 0 0 5pt 5pt #9aacba inset;
     padding: 10pt 15pt;
     margin: 5pt 15pt;
+    max-width: 100vw;
 }
 
 .modal {
@@ -151,4 +155,7 @@
             font-size: 25pt;
         }
         
+        .portfolio .githubRepo .repo a h4{
+            font-size: 17pt;
+        }
     }
